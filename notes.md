@@ -5,11 +5,7 @@
 1. Labels: sirna_id
 2. input: images
 3. isolate experiment and cell types too
-
-# Problems
-
-1. Featurewise centering not working. Meant to use with flow, not flow from dataframe
-    * https://github.com/keras-team/keras/issues/3679
+4. sample wise standardization was terrible
 
 ## Dataset notes
 
@@ -20,7 +16,7 @@
 * Testing on HUVEC cell types
     * Optimize for each cell type because they all look different
 
-* Image data gen adding noise helped regularize accuracies 
+* Image data gen adding noise helped regularize accuracies
 * It did trail off after a while though
 
 ## Definitions
